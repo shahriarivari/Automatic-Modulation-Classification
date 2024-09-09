@@ -13,12 +13,12 @@ As for the CNN model in this repository I used the paper ---> (https://doi.org/1
 
 There is this awsome survey paper from 2022 which basically covers all of the models developed up-untill 2022, which gives a great perspective and a good starting point ---> (https://doi.org/10.48550/arXiv.2207.09647)
 
-I ran this model on 1050TI and took 40 minutes for 50 epoch with batch size of 1024.
-you can find the confusion matrices and model's weights in this repository under **cnn_models** and **confusion_matrices**
-The train and test losses per epoch is saved as dict in **models_results**
-the matlab code and a python script for packaging data as pickle files in found at **Generating_data_Matlab**
-python scripts, **CNN_training_validation** inculdes notebook for training and validating the model
-**data_setup** provides functions to import, filter, create train and test splits specific for RADIOML 2016.A dataset
+I ran this model on 1050TI and took 40 minutes for 50 epoch with batch size of 1024.  
+you can find the confusion matrices and model's weights in this repository under **cnn_models** and **confusion_matrices**  
+The train and test losses per epoch is saved as dict in **models_results**  
+the matlab code and a python script for packaging data as pickle files in found at **Generating_data_Matlab**  
+python scripts, **CNN_training_validation** inculdes notebook for training and validating the model  
+**data_setup** provides functions to import, filter, create train and test splits specific for RADIOML 2016.A dataset  
 **utills** provides functions to save, load, some plottings and etc...
 
 *Note: the authors of the dataset recommend to use generated datasets and real collected data :  
