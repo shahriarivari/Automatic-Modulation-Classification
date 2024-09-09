@@ -21,7 +21,7 @@ python scripts, **CNN_training_validation** inculdes notebook for training and v
 **data_setup** provides functions to import, filter, create train and test splits specific for RADIOML 2016.A dataset
 **utills** provides functions to save, load, some plottings and etc...
 
-*Note: the authors of the dataset recommend to use generated datasets and real collected data : 
+*Note: the authors of the dataset recommend to use generated datasets and real collected data :  
 '''
 These datasets are from early academic research work in 2016/2017, they have several known errata and are NOT currently used within DeepSig products. We HIGHLY recommend researchers develop their own datasets using basic modulation tools such as in MATLAB or GNU Radio, or use REAL data recorded from over the air! DeepSig provides several supported and vetted datasets for commercial customers which are not provided here -- unfortunately we are not able to provide support, revisions or assistance for these open datasets due to overwhelming demand!
 '''
