@@ -119,5 +119,5 @@ elapsedTime = seconds(toc);
 elapsedTime.Format = 'hh:mm:ss';
 fprintf('%s -- end of generation\n', elapsedTime)
 
-Save the data
+% Save the data
 save('modulation_examples.mat', '-struct', 'examples_dict');

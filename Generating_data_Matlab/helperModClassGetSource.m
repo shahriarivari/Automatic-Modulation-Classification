@@ -19,10 +19,10 @@ switch modType
   case "PSK_8"
     M = 8;
     src = @()randi([0 M-1],spf/sps,1);
-  case "QAM16"
+  case "QAM_16"
     M = 16;
     src = @()randi([0 M-1],spf/sps,1);
-  case "QAM64"
+  case "QAM_64"
     M = 64;
     src = @()randi([0 M-1],spf/sps,1);
 end

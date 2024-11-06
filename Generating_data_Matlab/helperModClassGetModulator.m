@@ -15,9 +15,9 @@ switch modType
     modulator = @(x)qpskModulator(x,sps);
   case "PSK_8"
     modulator = @(x)psk8Modulator(x,sps);
-  case "QAM16"
+  case "QAM_16"
     modulator = @(x)qam16Modulator(x,sps);
-  case "QAM64"
+  case "QAM_64"
     modulator = @(x)qam64Modulator(x,sps);
   case "GFSK"
     modulator = @(x)gfskModulator(x,sps);
